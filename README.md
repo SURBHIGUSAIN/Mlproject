@@ -27,10 +27,4 @@ Choose best model
    math score
    reading score
    writing score
-4. Data Checks to perform
-   Check Missing values
-   Check Duplicates
-   Check data type
-   Check the number of unique values of each column
-   Check statistics of data set
-   Check various categories present in the different categorical column
+
