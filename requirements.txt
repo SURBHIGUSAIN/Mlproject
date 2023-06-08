@@ -5,6 +5,7 @@ scikit-learn
 catboost
 xgboost
 Flask
+dill
 # as we want to run setup.py as soon as we install requirements from txt file we will add
 #-e .
 # this will automatically trigger setup.py
