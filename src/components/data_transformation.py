@@ -20,7 +20,7 @@ from src.utils import save_object
 # so that in this case automatically the 'model.pkl' file will be created in the 'data files' folde
 class DataTransformationConfig:
     # path used to store the model created in pickle file
-    model_obj_file_path = os.path.join('data files', "model.pkl")
+    preprocessor_obj_file_path = os.path.join('data files', "preprocessor.pkl")
 
 
 class DataTransformation:
@@ -118,7 +118,7 @@ class DataTransformation:
 
             save_object(
 
-                file_path=self.data_transformation_config.model_obj_file_path,
+                file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj
 
             )
@@ -126,7 +126,7 @@ class DataTransformation:
             return (
                 train_arr,
                 test_arr,
-                self.data_transformation_config.model_obj_file_path,
+                self.data_transformation_config.preprocessor_obj_file_path,
             )
         except Exception as e:
             raise CustomException(e, sys)
