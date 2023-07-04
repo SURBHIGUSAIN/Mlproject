@@ -1,4 +1,4 @@
-## End to end ml practise project
+## Performance Indicator
 
 Student Performance Indicator
 
